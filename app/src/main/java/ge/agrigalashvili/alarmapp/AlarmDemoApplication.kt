@@ -1,4 +1,11 @@
 package ge.agrigalashvili.alarmapp
 
-class AlarmDemoApplication {
+import android.app.Application
+import ge.agrigalashvili.alarmapp.data.DemoDatabase
+
+class AlarmDemoApplication: Application() {
+    override fun onCreate() {
+        super.onCreate()
+        DemoDatabase.createDatabase(this)
+    }
 }
