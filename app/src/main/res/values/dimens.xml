@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_height">50dp</dimen>
+    <dimen name="icon_size">20dp</dimen>
+    <dimen name="alarm_bar_height">100dp</dimen>
+    <dimen name="horizontal_padding">16dp</dimen>
+    <dimen name="alarm_bar_radius">30dp</dimen>
+    <dimen name="alarm_bar_width">1dp</dimen>
+    <dimen name="margin_bottom">10dp</dimen>
+    <dimen name="size_zero">0dp</dimen>
+    <dimen name="unit_weight">1</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="time_size">32sp</dimen>
+</resources>
