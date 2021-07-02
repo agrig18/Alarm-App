@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+
+            <corners android:radius="@dimen/alarm_bar_radius" />
+            <solid android:color="@color/bar_color"/>
+            <stroke android:width="@dimen/alarm_bar_width" android:color="@color/light_gray" />
+        </shape>
+    </item>
+</layer-list>
