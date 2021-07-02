@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:gravity="center">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,12 +16,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="@dimen/toolbar_height"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:gravity="center"
+            style="@style/barStyle">
 
             <TextView
-                android:id="@+id/lightDarkMode"
-                style="@style/toolbarIconStyle"
-                android:background="@drawable/ic_back" />
+                android:id="@+id/lightDarkModeTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dark_txt"
+                android:textSize="@dimen/text_size"/>
 
             <View
                 android:layout_width="@dimen/size_zero"
@@ -28,9 +33,10 @@
                 android:layout_weight="@dimen/unit_weight" />
 
             <ImageButton
-                android:id="@+id/pinButton"
-                style="@style/toolbarIconStyle"
-                android:background="@drawable/ic_pin" />
+                android:id="@+id/addButton"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:background="@drawable/add" />
         </LinearLayout>
 
         <LinearLayout
@@ -39,7 +45,7 @@
             android:orientation="vertical">
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/activeRecycleView"
+                android:id="@+id/rvAlarms"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
