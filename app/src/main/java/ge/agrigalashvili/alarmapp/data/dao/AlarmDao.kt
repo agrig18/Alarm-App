@@ -9,7 +9,7 @@ import ge.agrigalashvili.alarmapp.data.entity.Alarm
 @Dao
 interface AlarmDao {
     @Query("SELECT * FROM alarm")
-    fun getMovies() : List<Alarm>
+    fun getAlarms() : List<Alarm>
 
     @Insert
     fun addAlarm(alarm: Alarm)
