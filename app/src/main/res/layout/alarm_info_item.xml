@@ -21,9 +21,8 @@
             android:layout_weight="@dimen/unit_weight" />
 
         <Switch
+            android:id="@+id/toggleSwitch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
-
-
 
 </LinearLayout>
