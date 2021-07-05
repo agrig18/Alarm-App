@@ -2,4 +2,11 @@
     <string name="app_name">Alarm App</string>
     <string name="light_txt">Switch to light</string>
     <string name="dark_txt">Switch to dark</string>
+    <string name="label_yes">yes</string>
+    <string name="label_no">no</string>
+    <string name="alert_message">Are you sure you want to delete item?</string>
+    <string name="label_cancel">cancel</string>
+    <string name="label_snooze">snooze</string>
+    <string name="notification_title">Alarm message!</string>
+    <string name="notification_text">Alarm set on </string>
 </resources>
